@@ -1,0 +1,154 @@
+[
+    {
+        "module": "Comprehending Commands",
+        "name": "cat: not the pet, but the command!",
+        "tags": [
+            "cat"
+        ],
+        "prerequisites": [
+            "commands",
+            "command_line",
+            "arguments"
+        ],
+        "summary": "The cat command outputs the contents of a file (specified as an argument) to the terminal."
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "catting absolute paths",
+        "tags": [
+            "cat_absolute_path"
+        ],
+        "prerequisites": [
+            "cat",
+            "absolute_path"
+        ],
+        "summary": "An absolute path to a file can also be specified as an argument to the cat command."
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "more catting practice",
+        "tags": [
+            "cat_absolute_path"
+        ],
+        "prerequisites": [
+            "cat",
+            "absolute_path"
+        ],
+        "summary": "An absolute path to a file can also be specified as an argument to the cat command."
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "grepping for a needle in a haystack",
+        "tags": [
+            "grep"
+        ],
+        "prerequisites": [
+            "command_line",
+            "arguments"
+        ],
+        "summary": "Use grep to search for a string in a file."
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "listing files",
+        "tags": [
+            "ls"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Comprehending Commands",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    }
+]

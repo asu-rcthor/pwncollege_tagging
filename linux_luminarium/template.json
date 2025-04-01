@@ -1,0 +1,15 @@
+[
+    {
+        "module": "module name",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "module": "Hello Hackers",
+        "name": "Intro to Commands",
+        "tags": [
+            "commands",
+            "command_line"
+        ],
+        "prerequisites": [
+            "NONE"
+        ],
+        "summary": "The command line can execute commands."
+    },
+    {
+        "module": "Hello Hackers",
+        "name": "Intro to Arguments",
+        "tags": [
+            "arguments"
+        ],
+        "prerequisites": [
+            "commands",
+            "command_line"
+        ],
+        "summary": "A command can be specified with arguments."
+    }    
+]

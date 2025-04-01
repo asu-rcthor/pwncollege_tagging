@@ -1,0 +1,103 @@
+[
+    {
+        "module": "Pondering Paths",
+        "name": "The Root",
+        "tags": [
+            "execute_from_root"
+        ],
+        "prerequisites": [
+            "commands",
+            "command_line"
+        ],
+        "summary": "Using a \"/\" followed by a name will execute a program with that name from the root directory."
+    },
+    {
+        "module": "Pondering Paths",
+        "name": "Program and absolute paths",
+        "tags": [
+            "absolute_path"
+        ],
+        "prerequisites": [
+            "execute_from_root"
+        ],
+        "summary": "The \"/\" can be used to enter a directory and find files within said directory."
+    },
+    {
+        "module": "Pondering Paths",
+        "name": "Position thy self",
+        "tags": [
+            "change_directory"
+        ],
+        "prerequisites": [
+            "execute_from_root"
+        ],
+        "summary": "Use cd to change directories."
+    },
+    {
+        "module": "Pondering Paths",
+        "name": "Position elsewhere",
+        "tags": [
+            "change_directory"
+        ],
+        "prerequisites": [
+            "execute_from_root"
+        ],
+        "summary": "Use cd to change directories (again)."
+    },
+    {
+        "module": "Pondering Paths",
+        "name": "Position yet elsewhere",
+        "tags": [
+            "change_directory"
+        ],
+        "prerequisites": [
+            "execute_from_root"
+        ],
+        "summary": "Use cd to change directories (for the third time)."
+    },
+    {
+        "module": "Pondering Paths",
+        "name": "implicit relative paths, from /",
+        "tags": [
+            "relative_path_directory"
+        ],
+        "prerequisites": [
+            "commands",
+            "command_line"
+        ],
+        "summary": "Specifying a sub-directory name followed by a slash will resolve the file name based on the current directory."
+    },
+    {
+        "module": "Pondering Paths",
+        "name": "explicit relative paths, from /",
+        "tags": [
+            "relative_path_dot_slash"
+        ],
+        "prerequisites": [
+            "commands"
+        ],
+        "summary": "Starting a command with a \"./\" will resolve file names and sub-directories based on the current directory."
+    },
+    {
+        "module": "Pondering Paths",
+        "name": "implicit relative path",
+        "tags": [
+            "relative_path_within_directory"
+        ],
+        "prerequisites": [
+            "commands"
+        ],
+        "summary": "Files and executables within the same directory can be executed with \"./\" followed by the file name, without needing to go to a different directory."
+    },
+    {
+        "module": "Pondering Paths",
+        "name": "home sweet home",
+        "tags": [
+            "home_directory"
+        ],
+        "prerequisites": [
+            "absolute_path"
+        ],
+        "summary": "The leading tilde \"~\" refers to the home directory; such paths are considered absolute."
+    }
+]
