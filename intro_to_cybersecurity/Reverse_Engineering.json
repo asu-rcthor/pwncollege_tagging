@@ -1,0 +1,506 @@
+[
+    {
+        "module": "Reverse Engineering",
+        "name": "File Formats: Magic Numbers (Python)",
+        "tags": [
+            "magic_number_char"
+        ],
+        "prerequisites": [ // FIXME
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "Executables to open files rely on a magic number to verify the file format."
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "File Formats: Magic Numbers (C)",
+        "tags": [ // FIXME
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "magic_number_char"
+        ],
+        "summary": "Unlike Python files, C files are not directly executed; instead, they are compiled into an executable format."
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "File Formats: Magic Numbers (x86)",
+        "tags": [
+            "decompilation"
+        ],
+        "prerequisites": [ // FIXME
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "Even without the original source code, it is possible to determine a binary's behavior via decompilation."
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "Reading Endianness (Python)",
+        "tags": [
+            "endianness",
+            "magic_number_int",
+            "ascii_conversion"
+        ],
+        "prerequisites": [
+            "magic_number_char"
+        ],
+        "summary": "Magic numbers may be checked as numbers; nevertheless, characters and numbers are data which can be stored similarly."
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "Reading Endianness (C)",
+        "tags": [ // FIXME
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [ // FIXME
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "Reading Endianness (x86)",
+        "tags": [ // FIXME
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "decompilation",
+            "endianness"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Reverse Engineering",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    }
+]

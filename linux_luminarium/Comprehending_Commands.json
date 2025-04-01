@@ -49,6 +49,7 @@
         "summary": "Use grep to search for a string in a file."
     },
     {
+        // DELIBERATE ERROR: CONTINUE WORKING FROM HERE
         "module": "Comprehending Commands",
         "name": "listing files",
         "tags": [

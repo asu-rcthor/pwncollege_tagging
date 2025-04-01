@@ -1,0 +1,377 @@
+[
+    {
+        "module": "Intercepting Communication",
+        "name": "Connect",
+        "tags": [
+            "connect_port",
+            "connect_ip"
+        ],
+        "prerequisites": [
+            "netcat"
+        ],
+        "summary": "Devices can conntect to other hosts with tools such as Netcat, and the port and IP address can be specified."
+    },
+    { // CONTINUE HERE
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Intercepting Communication",
+        "name": "Man in the Middle",
+        "tags": [
+            "man_in_the_middle"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    }
+]
