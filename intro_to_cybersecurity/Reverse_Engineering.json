@@ -10,6 +10,7 @@
             "prerequisite2"
         ],
         "summary": "Executables to open files rely on a magic number to verify the file format."
+        // What did the challenge author intended to teach? "This challenge teaches ...."
     },
     {
         "module": "Reverse Engineering",
@@ -29,9 +30,8 @@
         "tags": [
             "decompilation"
         ],
-        "prerequisites": [ // FIXME
-            "prerequisite1",
-            "prerequisite2"
+        "prerequisites": [
+            "x86_assembly"
         ],
         "summary": "Even without the original source code, it is possible to determine a binary's behavior via decompilation."
     },
@@ -76,16 +76,15 @@
     },
     {
         "module": "Reverse Engineering",
-        "name": "challenge name",
+        "name": "Version Information (Python)",
         "tags": [
-            "tag1",
-            "tag2"
+            "non_printable_char"
         ],
         "prerequisites": [
-            "prerequisite1",
-            "prerequisite2"
+            "magic_number_char",
+            "endianness"
         ],
-        "summary": "The nugget of knowledge which the hacker/student should learn"
+        "summary": "Version information can be stored in a file header, and this may also include non-printable characters."
     },
     {
         "module": "Reverse Engineering",
