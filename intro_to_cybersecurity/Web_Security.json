@@ -1,0 +1,386 @@
+[
+    {
+        "module": "Web Security",
+        "name": "Path Traversal 1",
+        "tags": [
+            "path_traversal",
+            "percent_encoding"
+        ],
+        "prerequisites": [
+            "curl"
+        ],
+        "summary": "The . and / characters can be used to traverse a filesystem."
+    },
+    {
+        "module": "Web Security",
+        "name": "Path Traversal 2",
+        "tags": [
+            "strip_limitations"
+        ],
+        "prerequisites": [
+            "path_traversal",
+            "percent_encoding"
+        ],
+        "summary": "More robust path traversal restrictions such as sandboxing are needed to protect the outer directories.."
+    },
+    {
+        "module": "Web Security",
+        "name": "CMDi 1",
+        "tags": [
+            "command_injection",
+            "injection"
+        ],
+        "prerequisites": [
+            "chaining_commands"
+        ],
+        "summary": "Forms which execute an input directly are prone to a command injection attack."
+    },
+    {
+        "module": "Web Security",
+        "name": "CMDi 2",
+        "tags": [
+            "injection_filter"
+        ],
+        "prerequisites": [
+            "chaining_commands",
+            "command_injection",
+            "injection"
+        ],
+        "summary": "There may be more than one way to execute a command sequentially."
+    },
+    {
+        "module": "Web Security",
+        "name": "CMDi 3",
+        "tags": [
+            "injection_quotation"
+        ],
+        "prerequisites": [
+            "chaining_commands",
+            "command_injection",
+            "injection"
+        ],
+        "summary": "In some injection scenarios, quotation marks (' or \") may be interpreted literally."
+    },
+    {
+        "module": "Web Security",
+        "name": "CMDi 4",
+        "tags": [
+            "injection_variable"
+        ],
+        "prerequisites": [
+            "chaining_commands",
+            "command_injection",
+            "injection"
+        ],
+        "summary": "Other locations of a command, such as variable assignment, are also susceptible to injection."
+    },
+    {
+        "module": "Web Security",
+        "name": "CMDi 5",
+        "tags": [
+            "injection_pipe"
+        ],
+        "prerequisites": [
+            "chaining_commands",
+            "command_injection",
+            "injection",
+            "piping"
+        ],
+        "summary": "Even without receiving output directly, output redirections can still be injected."
+    },
+    {
+        "module": "Web Security",
+        "name": "CMDi 6",
+        "tags": [
+            "injection_nonprintable"
+        ],
+        "prerequisites": [
+            "chaining_commands",
+            "command_injection",
+            "injection",
+            "injection_filter",
+            "percent_encoding"
+        ],
+        "summary": "Don't underestimate the shell :)"
+    },
+    {
+        "module": "Web Security",
+        "name": "Authentication Bypass 1",
+        "tags": [
+            "get_request_url"
+        ],
+        "prerequisites": [
+            "sql",
+            "get_parameters"
+        ],
+        "summary": "A GET request can be crafted freely in the URL."
+    },
+    {
+        "module": "Web Security",
+        "name": "Authentication Bypass 2",
+        "tags": [
+            "injection_nonprintable"
+        ],
+        "prerequisites": [
+            "cookies",
+            "get_parameters",
+            "get_request_url"
+        ],
+        "summary": "Robust authentication systems need to safeguard against arbitrarily-made cookies."
+    },
+    {
+        "module": "Web Security",
+        "name": "SQLi 1",
+        "tags": [
+            "sql_injection"
+        ],
+        "prerequisites": [
+            "injection",
+            "sql"
+        ],
+        "summary": "Faulty SQL interfaces allow other logic to be inserted."
+    },
+    {
+        "module": "Web Security",
+        "name": "SQLi 2",
+        "tags": [
+            "sql_injection_quotation",
+            "sql_truncate"
+        ],
+        "prerequisites": [
+            "injection",
+            "injection_quotation",
+            "sql",
+            "sql_injection"
+        ],
+        "summary": "Faulty SQL interfaces will interpret your query literally, including comments and quotations."
+    },
+    {
+        "module": "Web Security",
+        "name": "SQLi 3",
+        "tags": [
+            "sql_chain"
+        ],
+        "prerequisites": [
+            "chaining_commands",
+            "injection",
+            "injection_quotation",
+            "sql",
+            "sql_injection",
+            "sql_injection_quotation",
+            "sql_truncate"
+        ],
+        "summary": "Faulty SQL interfaces allow multiple queries to be chained."
+    },
+    {
+        "module": "Web Security",
+        "name": "SQLi 4",
+        "tags": [
+            "sql_information_schema",
+            "sql_like_glob"
+        ],
+        "prerequisites": [
+            "injection",
+            "injection_quotation",
+            "sql",
+            "sql_injection",
+            "sql_injection_quotation",
+            "sql_truncate"
+        ],
+        "summary": "A special table in a SQL database stores all of the table names, and that can be queried."
+    },
+    {
+        "module": "Web Security",
+        "name": "SQLi 5",
+        "tags": [
+            "brute_force",
+            "oracle_attack"
+        ],
+        "prerequisites": [
+            "injection",
+            "injection_quotation",
+            "sql",
+            "sql_injection"
+        ],
+        "summary": "A system that flags success or failures based on a deterministic input pattern and output can be brute-forced."
+    },
+    {
+        "module": "Web Security",
+        "name": "XSS 1",
+        "tags": [
+            "xss"
+        ],
+        "prerequisites": [
+            "injection",
+            "html"
+        ],
+        "summary": "Some HTML websites unintentionally allow the insertion of HTML, and unsuspecting visitors get it."
+    },
+    {
+        "module": "Web Security",
+        "name": "XSS 2",
+        "tags": [
+            "xss_javascript"
+        ],
+        "prerequisites": [
+            "injection",
+            "html",
+            "xss"
+        ],
+        "summary": "You can inject your own JavaScript if you can inject HTML."
+    },
+    {
+        "module": "Web Security",
+        "name": "XSS 3",
+        "tags": [
+            "xss_ephemeral"
+        ],
+        "prerequisites": [
+            "injection",
+            "html",
+            "xss_javascript"
+        ],
+        "summary": "Even if injected HTML isn't stored in a long-term database, if you can input anything, you can very well input something to XSS yourself."
+    },
+    {
+        "module": "Web Security",
+        "name": "XSS 4",
+        "tags": [
+            "xss_context_close"
+        ],
+        "prerequisites": [
+            "injection",
+            "html",
+            "xss_javascript",
+            "xss_ephemeral"
+        ],
+        "summary": "Applying <tags> in a particular way can allow you to end or split HTML elements and add your own stuff in between."
+    },
+    {
+        "module": "Web Security",
+        "name": "XSS 5",
+        "tags": [
+            "xss_fetch",
+            "xss_fetch_get"
+        ],
+        "prerequisites": [
+            "injection",
+            "html",
+            "xss_javascript"
+        ],
+        "summary": "Unsuspecting users may end up executing a fetch() call if injected into a site."
+    },
+    {
+        "module": "Web Security",
+        "name": "XSS 6",
+        "tags": [
+            "xss_fetch_post"
+        ],
+        "prerequisites": [
+            "injection",
+            "html",
+            "xss_javascript",
+            "xss_fetch"
+        ],
+        "summary": "fetch() can be done either with GET or POST methods."
+    },
+    {
+        "module": "Web Security",
+        "name": "XSS 7",
+        "tags": [
+            "xss_fetch_cookie"
+        ],
+        "prerequisites": [
+            "injection",
+            "html",
+            "xss_javascript",
+            "xss_fetch"
+        ],
+        "summary": "A fetch() call can extract cookies in some contexts, and an external website/port may be needed to receive this information."
+    },
+    {
+        "module": "Web Security",
+        "name": "CSRF 1",
+        "tags": [
+            "csrf",
+            "csrf_get"
+        ],
+        "prerequisites": [
+            "injection",
+            "html",
+            "xss_javascript",
+            "xss_fetch"
+        ],
+        "summary": "Even if an original site is immune to XSS, another site can very well script a GET request to the original site once more."
+    },
+    {
+        "module": "Web Security",
+        "name": "CSRF 2",
+        "tags": [
+            "csrf_post"
+        ],
+        "prerequisites": [
+            "csrf",
+            "injection",
+            "html",
+            "xss_javascript",
+            "xss_fetch"
+        ],
+        "summary": "CSRF can also be done with either GET or POST."
+    },
+    {
+        "module": "Web Security",
+        "name": "CSRF 3",
+        "tags": [
+            "csrf_script"
+        ],
+        "prerequisites": [
+            "csrf",
+            "injection",
+            "html",
+            "xss_javascript",
+            "xss_fetch",
+            "xss_fetch_get",
+            "xss_ephemeral"
+        ],
+        "summary": "CSRF can also send a JavaScript snippet in the HTTP request body."
+    },
+    {
+        "module": "Web Security",
+        "name": "CSRF 4",
+        "tags": [
+            "csrf_script_reflect"
+        ],
+        "prerequisites": [
+            "csrf",
+            "csrf_script",
+            "injection",
+            "html",
+            "xss_javascript",
+            "xss_fetch",
+            "xss_fetch_get",
+            "xss_ephemeral"
+        ],
+        "summary": "CSRF exploits may require a second level of scripting, i.e. \"returning\" after one script picks up cookies."
+    },
+    {
+        "module": "Web Security",
+        "name": "CSRF 5",
+        "tags": [
+            "httponly",
+            "http_metadata"
+        ],
+        "prerequisites": [
+            "csrf",
+            "csrf_script",
+            "csrf_script_reflect",
+            "injection",
+            "html",
+            "xss_javascript",
+            "xss_fetch",
+            "xss_fetch_get",
+            "xss_ephemeral"
+        ],
+        "summary": "CSRF can be used to extract whole websites, even without the cookie; however, the HTML may be broken but still examinable."
+    }
+]

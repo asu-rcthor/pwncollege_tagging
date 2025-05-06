@@ -1,0 +1,106 @@
+[
+    {
+        "module": "Integrated Security",
+        "name": "ECB-to-Win (easy)",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Integrated Security",
+        "name": "ECB-to-Win (hard)",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Integrated Security",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Integrated Security",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Integrated Security",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Integrated Security",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Integrated Security",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    },
+    {
+        "module": "Integrated Security",
+        "name": "challenge name",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "prerequisites": [
+            "prerequisite1",
+            "prerequisite2"
+        ],
+        "summary": "The nugget of knowledge which the hacker/student should learn"
+    }
+]
